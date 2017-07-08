@@ -8,7 +8,7 @@ import axios from "axios";
 const App = () => (
   <View>
     <Header headerText={"Hedley Luna"}/>
-    <AlbumList />
+    <AlbumList style={ { flex: 1 } } />
   </View>
 );
 
